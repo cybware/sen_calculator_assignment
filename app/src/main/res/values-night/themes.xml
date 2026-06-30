@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme for Dark Mode (System-triggered night theme) -->
+    <style name="Theme.MyApplication" parent="android:Theme.DeviceDefault.NoActionBar">
+        <!-- Dark themed styling definitions -->
+        <item name="android:windowBackground">@color/calc_background_dark</item>
+        <item name="android:statusBarColor">@color/calc_background_dark</item>
+        <item name="android:navigationBarColor">@color/calc_background_dark</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m" xmlns:tools="http://schemas.android.com/tools">false</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o" xmlns:tools="http://schemas.android.com/tools">false</item>
+    </style>
+</resources>

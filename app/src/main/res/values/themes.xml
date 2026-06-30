@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme for Light Mode (Default System Theme) -->
+    <style name="Theme.MyApplication" parent="android:Theme.DeviceDefault.NoActionBar">
+        <!-- Programmatically complementary color assignments -->
+        <item name="android:windowBackground">@color/calc_background_light</item>
+        <item name="android:statusBarColor">@color/calc_background_light</item>
+        <item name="android:navigationBarColor">@color/calc_background_light</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m" xmlns:tools="http://schemas.android.com/tools">true</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o" xmlns:tools="http://schemas.android.com/tools">true</item>
+    </style>
+</resources>

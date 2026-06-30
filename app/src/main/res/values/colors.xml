@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dark Mode Palette Resources -->
+    <color name="calc_background_dark">#0F172A</color>
+    <color name="calc_surface_dark">#0B1326</color>
+    <color name="calc_primary_dark">#F97316</color>
+    <color name="calc_secondary_dark">#38BDF8</color>
+    <color name="calc_text_primary_dark">#DAE2FD</color>
+    <color name="calc_text_secondary_dark">#909BB1</color>
+
+    <!-- Light Mode Palette Resources -->
+    <color name="calc_background_light">#F8FAFC</color>
+    <color name="calc_surface_light">#F1F5F9</color>
+    <color name="calc_primary_light">#EA580C</color>
+    <color name="calc_secondary_light">#0284C7</color>
+    <color name="calc_text_primary_light">#0F172A</color>
+    <color name="calc_text_secondary_light">#64748B</color>
+
+    <!-- Semantic Tonal Colors -->
+    <color name="window_background_default">#F8FAFC</color>
+    <color name="status_bar_default">#F8FAFC</color>
+</resources>
